@@ -2,7 +2,7 @@
 
 from django.shortcuts import render
 from django.http import HttpResponse
-from ..models import Student
+from ..models.students import Student
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 
 
@@ -17,7 +17,7 @@ def students_list(request):
             students = students.reverse()
 
     # Paginate students
-    paginator = Paginator(students, 5)
+    paginator = Paginator(students, 3)
     page = request.GET.get('page')
 
     try:
