@@ -17,7 +17,7 @@ def students_list(request):
             students = students.reverse()
 
     # Paginate students
-    paginator = Paginator(students, 3)
+    paginator = Paginator(students, 5)
     page = request.GET.get('page')
 
     try:
