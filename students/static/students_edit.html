@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="UTF-8"/>
+	<title>Сервіс Обліку Студентів</title>
+	<meta name="description" value="Система Обліку Студентів Навчвльного закладу" />
+
+	<!-- Include Styles -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/main.css">
+
+</head>
+<body>
+
+	<!-- Start Container -->
+	<div class="container">
+
+		<!-- Start Header -->
+		<div class="row" id="header">
+
+			<!-- Logo -->
+			<div class="col-xs-8">
+				<h1>Форма Редагування Студента</h1>
+			</div>
+
+		</div>
+		<!-- End Header -->
+
+		<!-- Start Main Page Content -->
+		<div class="row" id="content-columns">
+			<div class="col-xs-12" id="content-column">
+
+
+			<form action="" method="">
+				<div class="form-group">
+					<div class="row">
+						<div class="col-xs-2">
+							<label for="firstname">Ім'я*</label>
+						</div>
+						<div class="col-xs-3">
+							<input type="text" class="form-control" id="firstname" name="firstname" width="100" placeholder="">
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-xs-2">
+							<label for="middlename">По-батькові</label>
+						</div>
+						<div class="col-xs-3">
+							<input type="text" class="form-control" id="middlename" name="middlename" placeholder="">
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-xs-2">
+							<label for="lastname">Прізвище*</label>
+						</div>
+						<div class="col-xs-3">
+							<input type="text" class="form-control" id="lastname" name="lastname" placeholder="">
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-xs-2">
+							<label for="ticket">№ Білету*</label>
+						</div>
+						<div class="col-xs-3">
+							<input type="text" class="form-control" id="ticket" name="ticket" placeholder="">
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-xs-2">
+							<label for="dateofbirth">Дата народження</label>
+						</div>
+						<div class="col-xs-3">
+							<input type="text" class="form-control" id="dateofbirth" name="dateofbirth" placeholder="1988-11-14">
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-xs-2">
+							<label for="photo">Фото</label>
+						</div>
+						<div class="col-xs-3">
+							<input type="file" class="form-control-file" id="photo" name="photo">
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-xs-2">
+							<label for="group">Група*</label>
+						</div>
+						<div class="col-xs-3">
+							<select class="form-control" id="group" name="group">
+								<option value="">МтМ-31</option>
+								<option value="">МтМ-33</option>
+								<option value="">МтМ-33</option>
+							</select>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-xs-2">
+							<label for="notes">Додаткові нотатки</label>
+						</div>
+						<div class="col-xs-3">
+							<textarea class="form-control" rows="3" cols="50" id="notes" name="notes" placeholder="Додаткові нотатки"></textarea>
+						</div>
+					</div>
+					<hr />
+
+					<div class="row">
+						<div class="form-group" id="submit-form">
+							<button type="submit" class="btn btn-primary">Зберегти</button>
+							<button type="button" class="btn btn-light">Скасувати</button>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<!-- End Main Page Content -->
+
+	</div>
+	<!-- End Container -->
+
+	<!-- JavaScript Section -->
+	<!-- jQuery Library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- Latest Compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>
